@@ -63,7 +63,7 @@ class Task2PangramTest {
 
     @Test
     fun testPangram8() {
-        val inputStr = "TWO driven jock helped fax my big quiz."
+        val inputStr = "TWO driven jock helped fax my big quiz. "
         val resultStr = "1My 2TWO 2FaX 2BiG 2QuiZ. 3JoCK 4DRiVeN 4HeLPeD"
         assertEquals(resultStr, pangram.getResult(inputStr))
     }
